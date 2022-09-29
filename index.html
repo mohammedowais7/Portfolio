@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ICON.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .main-page{
+            color: rgb(255, 255, 255);
+            margin-top: 200px ;
+            margin-left: 100px;
+        }
+        .main-feildset{
+            background-color: aliceblue;
+        }
+        .button{
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  right: 7px;
+  transition: 0.2s;
+}
+
+.button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 13px 50px 13px;
+  }
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+.right {
+  right: 0;
+  background-color: rgb(255, 230, 6);
+}
+
+
+
+    </style>
+    <title>Owais Mohammed</title>
+</head>
+<body>
+    <DIV class="split left">
+        <div class="main-page">
+
+
+    <h1>I'm Owais Mohammed</h1>
+    <a href="portfolio.html">
+    <button class="button" role="button">MORE ABOUT ME </button>
+</a>
+
+    <h5 style="margin-bottom: 390px;"></h5>
+
+</div>
+</DIV>
+<div class="split right">
+    <img class="image1" src="mee.jpg" alt="mee">
+</div>
+
+    
+</body>
+</html>
