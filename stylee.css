@@ -4,6 +4,7 @@ body{
 .contact-info{
     text-align: center;
     align-items: center;
+
 }
 .contact-text{
     text-align: center;
@@ -34,6 +35,12 @@ body{
     margin-left: 100PX;
     
 }
+.contact-info{
+    background-color: #ffe54c;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
 .sub-text1{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -44,18 +51,6 @@ body{
     margin-right: 100px;
     margin-left: 100PX;
     
-}
-.contact-info{
-    margin: 0px;
-    padding: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    background: rgb(90, 86, 86);
-    align-items:center;
-    margin-top: 650px;
-    justify-content: center;
-    display: flex;
-    border-color: black;
-
 }
 .sec33{
     width: 33.33%;
@@ -101,3 +96,14 @@ body{
       padding: 13px 50px 13px;
     }
   }
+.btn{
+    background-color: black;
+    color: #ffe54c;
+    padding: 12px 16px;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 1s;
+}
