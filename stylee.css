@@ -72,9 +72,9 @@ body{
     -webkit-user-select: none;
     touch-action: manipulation;
     border-spacing: 25px;
-  }
+}
   
-  .card:after {
+.card:after {
     content: "";
     background-color: #ffe54c;
     width: 100%;
@@ -84,18 +84,19 @@ body{
     top: 7px;
     right: 7px;
     transition: 0.2s;
-  }
+}
   
-  .card:hover:after {
+.card:hover:after {
     top: 0px;
     left: 0px;
-  }
+}
   
-  @media (min-width: 768px) {
-    .card {
+@media (min-width: 768px) {
+.card {
       padding: 13px 50px 13px;
     }
-  }
+}
+
 .btn{
     background-color: black;
     color: #ffe54c;
